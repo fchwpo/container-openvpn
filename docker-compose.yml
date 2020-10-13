@@ -1,5 +1,6 @@
 vpn:
   build: .
+  restart: always
   volumes:
     - .:/etc/openvpn
     - /etc/resolv.conf:/etc/resolv.conf
